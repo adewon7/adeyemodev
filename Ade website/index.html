@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adeyemo Abdullahi | Software Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Tags -->
+  <meta name="description" content="Adeyemo Abdullahi is a Software Developer and Social Media Manager based in Abuja, Nigeria. I build modern websites and apps and help brands grow online.">
+  <meta name="keywords" content="Adeyemo Abdullahi, software developer, web developer, mobile app developer, React Native, TypeScript, Nigeria, portfolio, HTML, CSS, responsive design">
+  <meta name="author" content="Adeyemo Abdullahi">
+  <meta name="theme-color" content="#0a0a14">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background decoration -->
+  <div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="brand" data-nav>
+      <span class="brand-mark">AA</span>
+      <span class="brand-name">ADEYEMO ABDULLAHI<span class="dot">.</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-nav>Home</a>
+      <a href="#about" class="nav-link" data-nav>About</a>
+      <a href="#projects" class="nav-link" data-nav>Projects</a>
+      <a href="#services" class="nav-link" data-nav>Services</a>
+      <a href="#store" class="nav-link" data-nav>Store</a>
+      <a href="#contact" class="nav-link" data-nav>Contact</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <label class="switch" title="Toggle light / dark mode">
+        <input type="checkbox" id="toggle-theme">
+        <span class="slider">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </span>
+      </label>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="page-section active">
+
+      <div class="hero container">
+        <div class="hero-text">
+          <p class="eyebrow"><span class="pulse-dot"></span> Available for freelance work</p>
+          <h1> <span class="gradient-text">Adeyemo Abdullahi</span></h1>
+          <p class="hero-role">Software Developer &amp; Digital Creative</p>
+          <p class="hero-desc">
+            I design and build clean, responsive websites and mobile apps, and help brands grow their
+            presence through social media management and graphic design based in Abuja, Nigeria.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-nav>View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-ghost" data-nav>Let's Talk</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>5+</strong>
+              <span>Live Projects</span>
+            </div>
+            <div class="stat">
+              <strong>3</strong>
+              <span>Languages</span>
+            </div>
+            <div class="stat">
+              <strong>100%</strong>
+              <span>Client Focused</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-image-glow" aria-hidden="true"></div>
+          <img src="adepro.jpg" alt="Adeyemo Abdullahi" />
+        </div>
+      </div>
+
+      <!-- Digital Arsenal -->
+      <div class="container arsenal">
+        <p class="section-kicker">Digital Arsenal</p>
+        <h2>Tools I Work With</h2>
+        <div class="arsenal-grid">
+          <div class="arsenal-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+          <div class="arsenal-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="arsenal-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          <div class="arsenal-item"><i class="fa-solid fa-file-code"></i><span>TypeScript</span></div>
+          <div class="arsenal-item"><i class="fab fa-react"></i><span>React Native</span></div>
+          <div class="arsenal-item"><i class="fab fa-android"></i><span>Android Studio</span></div>
+          <div class="arsenal-item"><i class="fab fa-apple"></i><span>Xcode</span></div>
+          <div class="arsenal-item"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+          <div class="arsenal-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+          <div class="arsenal-item"><i class="fa-solid fa-swatchbook"></i><span>CorelDRAW</span></div>
+          <div class="arsenal-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+        </div>
+      </div>
+
+      <!-- Featured Projects -->
+      <div class="container featured">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Featured Work</p>
+            <h2>A Few Things I've Built</h2>
+          </div>
+          <a href="#projects" class="link-arrow" data-nav>See all projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="card-grid">
+          <div class="project-card">
+            <div class="project-card-top">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3>Mindfinance Academy</h3>
+            <p>A simple, mobile friendly site that helps young people learn the basics of money and investing.</p>
+            <a href="https://academy.mindfinance.io/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top">
+              <i class="fa-solid fa-music"></i>
+            </div>
+            <h3>Soja Boy</h3>
+            <p>A clean, single-page portfolio built for the Nigerian artist SojaBoy, featuring his music, social links, and press kit.</p>
+            <a href="https://sojaboy.com.ng/about/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <h3>Arcade Suit Hotel</h3>
+            <p>A simple booking website made for a local hotel, with room listings, contact form, and map integration.</p>
+            <a href="https://arcadesuites.ng/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="page-section">
+      <div class="container about">
+        <p class="section-kicker">About Me</p>
+        <h2>Building ideas into reality</h2>
+
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="adepic.png" alt="Adeyemo Abdullahi working" />
+          </div>
+          <div class="about-content">
+            <p>
+              I'm <strong>Adeyemo Abdullahi</strong>, a dynamic and detail-oriented <strong>Software Developer</strong>
+              with a passion for creating impactful digital experiences. I work across web and mobile app
+              development, social media management and graphics design. With a versatile background and a strong
+              eye for design, I help individuals and brands build engaging, professional digital platforms.
+            </p>
+            <p>
+              I'm fluent in English, Hausa, and Yoruba, and I thrive in diverse teams where communication
+              and creativity are essential to success.
+            </p>
+
+            <ul class="skills-list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React Native</li>
+              <li>Mobile App Development</li>
+              <li>Responsive Design</li>
+              <li>WordPress</li>
+              <li>Social Media Strategy</li>
+              <li>Graphic Design</li>
+            </ul>
+
+            <a href="Adeyemo Abdullahi.pdf" download class="btn btn-primary">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="page-section">
+      <div class="container">
+        <p class="section-kicker">Portfolio</p>
+        <h2>Projects I've Built</h2>
+
+        <div class="card-grid card-grid--4">
+          <div class="project-card">
+            <div class="project-card-top"><i class="fa-solid fa-store"></i></div>
+            <h3>Wabio App</h3>
+            <p>Software Developer, A social commerce platform that lets businesses build and manage online stores product management, order processing, sales tracking, and customer interactions Available on the web, Google Play, and the App Store.</p>
+            <a href="https://www.wabio.app/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Mindfinance Academy</h3>
+            <p>An online learning platform focused on personal finance education and investment awareness for young people.</p>
+            <a href="https://academy.mindfinance.io/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top"><i class="fa-solid fa-music"></i></div>
+            <h3>SojaBoy</h3>
+            <p>An official website for a music artist, featuring his songs, social links, updates, and press kit.</p>
+            <a href="https://sojaboy.com.ng/about/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top"><i class="fa-solid fa-hotel"></i></div>
+            <h3>Arcade Suite Hotel</h3>
+            <p>A clean and modern hotel booking website with room listings, contact info, and map integration.</p>
+            <a href="https://arcadesuites.ng/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-card-top"><i class="fa-solid fa-users"></i></div>
+            <h3>Codewithhassan Community</h3>
+            <p>A developer community led by Hassan, focused on learning, sharing, and building real-world projects together.</p>
+            <a href="https://codewithhassan.com.ng/" class="project-link" target="_blank" rel="noopener">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-card project-card--soon">
+            <div class="project-card-top"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Social Media Campaign</h3>
+            <p>Led a campaign for a local brand that boosted their engagement by over 70% in 3 months.</p>
+            <span class="project-link project-link--disabled">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="page-section">
+      <div class="container">
+        <p class="section-kicker">What I Offer</p>
+        <h2>Services</h2>
+
+        <div class="card-grid card-grid--3">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <h3>SOFTWARE DEVELOPER</h3>
+            <p>I build clean and responsive Applications and websites that work on all devices.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+            <h3>Social Media Management</h3>
+            <p>I help businesses grow online with smart content planning and audience engagement.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+            <h3>Graphic Design</h3>
+            <p>I create visuals with tools like CorelDRAW and Canva that match your brand style.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store -->
+    <section id="store" class="page-section">
+      <div class="container store">
+        <div class="store-box">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <p class="section-kicker">My Store</p>
+          <h2>Something's Cooking</h2>
+          <p>Digital templates, social media kits, and more coming soon. Reach out if you'd like early access.</p>
+          <a href="#contact" class="btn btn-primary" data-nav>Get Notified</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="page-section">
+      <div class="container contact">
+        <p class="section-kicker">Get In Touch</p>
+        <h2>Let's Build Something Together</h2>
+
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary" id="contactSubmit">
+              <span class="btn-label">Send Message</span>
+            </button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+
+          <div class="contact-info">
+            <a href="mailto:ade72111598@gmail.com" class="info-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span>Email</span>
+                <strong>ade72111598@gmail.com</strong>
+              </div>
+            </a>
+            <a href="tel:+2349072112598" class="info-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span>Phone</span>
+                <strong>+234 907 211 2598</strong>
+              </div>
+            </a>
+            <div class="info-card info-card--static">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span>Location</span>
+                <strong>Abuja, Nigeria</strong>
+              </div>
+            </div>
+
+            <div class="social-row">
+              <a href="https://x.com/adebit7" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://instagram.com/adebit7" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com/in/abdullahi-adeyemo-279a10321" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Adewon7" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://wa.me/2349072112598" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="brand footer-brand">
+        <span class="brand-mark">AA</span>
+        <span class="brand-name">Adeyemo Abdullahi<span class="dot">.</span></span>
+      </div>
+      <p>Software Developer & Digital Creative Abuja, Nigeria</p>
+      <div class="social-row">
+        <a href="https://x.com/adebit7" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com/adeyemo7211" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/abdullahi-adeyemo-279a10321" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Adewon7" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/2349072112598" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="copyright">&copy; 2026 Adeyemo Abdullahi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" title="Go to top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Theme toggle
+    const themeToggle = document.getElementById('toggle-theme');
+    const body = document.body;
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      body.classList.add('light-mode');
+      themeToggle.checked = true;
+    }
+    themeToggle.addEventListener('change', () => {
+      body.classList.toggle('light-mode', themeToggle.checked);
+      localStorage.setItem('theme', themeToggle.checked ? 'light' : 'dark');
+    });
+
+    // Back to top
+    const backToTopBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTopBtn.classList.toggle('visible', window.pageYOffset > 300);
+    });
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Section navigation
+    const navTriggers = document.querySelectorAll('[data-nav]');
+    const sections = document.querySelectorAll('.page-section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navLinksWrap = document.getElementById('navLinks');
+    const menuToggle = document.getElementById('menuToggle');
+
+    function showSection(id) {
+      sections.forEach(section => section.classList.toggle('active', section.id === id));
+      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + id));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      navLinksWrap.classList.remove('open');
+      menuToggle.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    navTriggers.forEach(trigger => {
+      trigger.addEventListener('click', e => {
+        e.preventDefault();
+        const target = trigger.getAttribute('href').substring(1);
+        showSection(target);
+      });
+    });
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinksWrap.classList.toggle('open');
+      menuToggle.classList.toggle('open', isOpen);
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Contact form
+    const contactForm = document.getElementById('contactForm');
+    const formStatus = document.getElementById('formStatus');
+    const contactSubmit = document.getElementById('contactSubmit');
+
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = new FormData(contactForm);
+      contactSubmit.disabled = true;
+      contactSubmit.querySelector('.btn-label').textContent = 'Sending...';
+      formStatus.textContent = '';
+      formStatus.className = 'form-status';
+
+      try {
+        const response = await fetch('https://formspree.io/f/xkgplzpj', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: data
+        });
+
+        if (response.ok) {
+          formStatus.textContent = "Thanks for reaching out! I'll reply soon.";
+          formStatus.classList.add('success');
+          contactForm.reset();
+        } else {
+          formStatus.textContent = 'Something went wrong. Please try again.';
+          formStatus.classList.add('error');
+        }
+      } catch (err) {
+        formStatus.textContent = 'Something went wrong. Please try again.';
+        formStatus.classList.add('error');
+      } finally {
+        contactSubmit.disabled = false;
+        contactSubmit.querySelector('.btn-label').textContent = 'Send Message';
+      }
+    });
+  </script>
+</body>
+</html>
